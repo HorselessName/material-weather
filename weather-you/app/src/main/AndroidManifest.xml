@@ -18,9 +18,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WeatherYou"
         tools:targetApi="31"
-        android:name=".WeatherYouApp">
+        android:name="com.weatherapp.app.WeatherYouApp">
         <activity
-            android:name=".presentation.navigation.MainActivity"
+            android:name="com.weatherapp.app.presentation.navigation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
